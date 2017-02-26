@@ -1,5 +1,9 @@
 body{
     padding: 70px;
+    margin: auto;
+    width: 90%;
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
 }
 
 .background{
@@ -18,20 +22,6 @@ body{
     background-size: cover;
     */
 } 
-
-.wrapper{
-    margin: auto;
-    width: 90%;
-}
-
-.row {
-    /*width: 90%; */    
-}
-
-.wrapper{
-    color: #333333;
-    font-family: 'Oswald', sans-serif;
-}
 
 .navbar-custom{
     background-color:rgba(44, 62, 80, .8);
