@@ -54,3 +54,13 @@ body{
 .contact{
     text-align: center;
 }
+
+#mychart{
+    width: 90%;
+    height: 90%;
+}
+
+#dayTrendChart{
+    width: 90%;
+    height: 90%;
+}
