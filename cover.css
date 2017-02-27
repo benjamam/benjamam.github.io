@@ -15,8 +15,12 @@ h3{
     font-size: 250%;
 }
 
+.navbar-default{
+    background-color: #16a085;
+}
+
 .navbar-custom{
-    background-color:rgba(44, 62, 80, .8);
+    background-color: #16a085;
     color: white;
     border-radius:0;
 }
@@ -33,12 +37,13 @@ h3{
     background-color: rgba(46, 204, 113,1.0); 
 }
 
+
 .calendar{
     padding-bottom: 20px;
 }
 
-.calendar h1{
-    text-align: center;
+.calendar h3{
+    font-size: 200%;
 }
 
 .col-sm-3{
