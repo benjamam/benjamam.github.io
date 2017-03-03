@@ -307,3 +307,9 @@ html { height: 100%;}
     background: white;
     border: none;
 }
+
+.content img{
+    margin: auto;
+    width: 80%;
+    border-radius: 15px;
+}
