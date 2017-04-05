@@ -1,4 +1,4 @@
-<?php require 'partials/top.view.php'; ?>
+<?php require 'HTML/partials/top.view.php'; ?>
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
@@ -21,4 +21,4 @@
                 </div>
             </div>
         </div>
-<?php require 'partials/bottom.view.php'; ?>
+<?php require 'HTML/partials/bottom.view.php'; ?>
