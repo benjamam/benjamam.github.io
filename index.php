@@ -21,10 +21,4 @@
                 </div>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-    <script src="JS/sidemenu.js"></script>
-</body>
-</html>
+<?php require 'partials/bottom.view.php'; ?>
