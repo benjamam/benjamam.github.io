@@ -59,13 +59,13 @@
 <div class="about-me text-center" id="about-me">
     <div id="bio" class="container">
         <div class="row" id="bioImgs">
-            <div class="col">
+            <div class="col container-box">
                 <img src="elephant.JPG" alt="elephant">
             </div>
-            <div class="col">
+            <div class="col container-box">
                 <img src="grad.JPG" alt="grad">
             </div>
-            <div class="col">
+            <div class="col container-box">
                 <img src="rev.JPG" alt="rev">
             </div>
         </div>
@@ -82,19 +82,62 @@
     <div class="row projectwrapper">
         <div class="col proj">
             <h2><a href="http://benjamam.cse252.spikeshroud.com/AgriTrak/">AgriTrak</a></h2>
-            <img src="agritrak.PNG" alt="agritrak">
-            <p>My senior design project that I completed alongside three other classmates. AgriTrak is a mobile-first web app that allows the user
-                to view relevant crop and farm metrics that allow the farmer to make informed decisions regarding his/her crops.</p>
-            <p>In addition, it was selected to be a part of the <a href="http://www.sensorsexpo.com/conference">2017 Sensors and Expo Conference</a> in San Jose</p>
-            <p>AgriTrak was a full-stack project: it used hardware including Arduinos and sensors to measure and transmit the metrics, which were posted to a NoSQL database and 
-                displayed via the web app. The following technologies were used: HTML/CSS, PHP, jQuery, NoSQL db, Python, Arduino.</p> 
+            <p>A mobile-first web app to display relevant crop metrics to farmers</p>
+
+            <button class="btn btn-primary" data-toggle="modal" data-target=".agritrak-modal">Learn More</button>
+
+            <div class="modal fade agritrak-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">AgriTrak</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <p>My senior design project that I completed alongside three other classmates. AgriTrak is a mobile-first web app that allows the user
+                        to view relevant crop and farm metrics that allow the farmer to make informed decisions regarding his/her crops.</p>
+                    <p>In addition, it was selected to be a part of the <a href="http://www.sensorsexpo.com/conference">2017 Sensors and Expo Conference</a> in San Jose</p>
+                    <p>AgriTrak was a full-stack project. The following technologies and languages were used: 
+                        <ul class="tech-list">
+                            <li><b>HTML/CSS</b></li>
+                            <li><b>Javascript/jQuery</b></li>
+                            <li><b>PHP</b> - used to connect to mLab/process data</li>
+                            <li><b>mLab</b> - NoSQL database used to store farm data</li>
+                            <li><b>Python</b> - script used to post data from sensors to mLab</li>
+                            <li><b>Arduino</b> - hardware used to process data from sensors</li>
+                            <li><b>Sensors</b> - physical sensors used to read soil moisture level, ground temperature, and evapotranspiration</li>
+                        </ul>
+                    <p>View the live app <a href="http://benjamam.cse252.spikeshroud.com/AgriTrak/">here</a></p>
+                    <img src="agritrak.PNG" alt="agritrak" >    
+                </div>
+            </div>
+            </div>
+            
         </div>
         <div class="col proj">
-            <h2><a href="https://drive.google.com/file/d/0BxdyWo1RsBZ3WFNjMmhoQ1ptTjA/view?usp=sharing">Characterizing and Detecting Meteors using Incoherent Scatter Radar (ISR)</a></h2>
-            <img src="signalsentreceived.png" alt="signal">
-            <p>I was able to spend a few weeks at Arecibo Observatory in Puerto Rico (the largest radio telescope in the world) doing research. </p>
-            <p>A group of classmates and I took raw data from experiments run at Arecibo and used this data to detect and characterize meteors in the ionosphere using MATLAB. Meteors cause interference when 
-                researchers attempt to collect data from deep in the solar system. By characterizing and filtering out meteor interference, researchers are able to collect much more accurate and significant data.</p>    
+            <h2><a href="https://drive.google.com/file/d/0BxdyWo1RsBZ3WFNjMmhoQ1ptTjA/view?usp=sharing">Arecibo Observatory Radar Project</a></h2>
+            <p>A MATLAB data analysis project using data from experiments run at Arecibo Observatory to detect and characterize meteors</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target=".arecibo-modal">Learn More</button>
+
+            <div class="modal fade arecibo-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Arecibo Observatory</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                <img src="signalsentreceived.png" alt="signal">
+                <p>I spent a week at Arecibo Observatory in Puerto Rico (the largest radio telescope in the world) doing research. </p>
+                <p>A group of classmates and I took raw data from experiments run at Arecibo and used this data to detect and characterize meteors in the ionosphere using MATLAB. Meteors cause interference when 
+                    researchers attempt to collect data from deep in the solar system. By characterizing and filtering out meteor interference, researchers are able to collect much more accurate and significant data.</p>   
+                <p>View the report for this project <a href="https://drive.google.com/file/d/0BxdyWo1RsBZ3WFNjMmhoQ1ptTjA/view?usp=sharing">here</a></p>
+                </div>
+            </div>
+            </div>  
         </div>
     </div>
 </div>

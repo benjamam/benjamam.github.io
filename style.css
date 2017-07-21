@@ -50,6 +50,17 @@ h1{
     
 }
 
+.modal-content img{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.tech-list{
+    text-align: left;
+    margin-left: 10%;
+}
+
 .resume{
     padding-top: 2%;   
     padding-bottom: 2%; 
