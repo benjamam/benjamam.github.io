@@ -15,7 +15,7 @@ h1{
 }
 
 .about-me{
-    padding-top: 5%; 
+    padding: 5%;
     font-family: 'Roboto Slab', serif;  
 }
 
@@ -31,10 +31,37 @@ h1{
 }
 
 .projects{
-    padding-top: 5%; 
+    padding-top: 2%;   
+    padding-bottom: 2%; 
     font-family: 'Roboto Slab', serif;  
+    
 }
 
 .projects img{
     height: 30%;
+}
+
+.projectwrapper{
+    background-color: #ecf0f1;
+}
+
+.proj{
+    border: #1abc9c 1px solid;
+    
+}
+
+.resume{
+    padding-top: 2%;   
+    padding-bottom: 2%; 
+    font-family: 'Roboto Slab', serif;  
+}
+
+.contact-me{
+    background-color: #1abc9c;
+    font: white;
+    font-family: 'Roboto Slab', serif;  
+}
+
+.contact-me h1{
+    color: white;
 }
