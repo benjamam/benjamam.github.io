@@ -1,0 +1,40 @@
+h1{
+    color: #1abc9c;
+}
+
+.home{
+    background-image: url("aboutme.png");
+    padding: 20%;
+}
+
+#heading h1{
+    font-family: 'Arizonia', cursive;
+    font-size: 500%;
+    
+    
+}
+
+.about-me{
+    padding-top: 5%; 
+    font-family: 'Roboto Slab', serif;  
+}
+
+#bioImgs img{
+    height: 90%;
+    width: 90%;
+    border-radius: 90%;
+}
+
+#description{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.projects{
+    padding-top: 5%; 
+    font-family: 'Roboto Slab', serif;  
+}
+
+.projects img{
+    height: 30%;
+}
